@@ -8,7 +8,7 @@ import cv2
 from sklearn.preprocessing import StandardScaler
 
 # reading the digits.mat dataset .
-mat = scipy.io.loadmat('digits/digits.mat')
+mat = scipy.io.loadmat('../digits/digits.mat')
 # getting the digits values and corresponing labels.
 digits = mat['digits']
 labels = mat['labels']
